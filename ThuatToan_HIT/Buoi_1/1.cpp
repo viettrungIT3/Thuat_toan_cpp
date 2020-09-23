@@ -45,7 +45,7 @@ int main(int argc, char const *argv[])
     if ( ktSNT(x) )
     {
         ++n;
-        a[n] = x;
+        a[n-1] = x;
     }
     SortArr( a, n);
     for (int i = 0; i < n; i++)
