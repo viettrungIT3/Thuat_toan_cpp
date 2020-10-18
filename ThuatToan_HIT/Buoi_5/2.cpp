@@ -35,6 +35,6 @@ int main(int argc, char const *argv[])
     cin>>n;
     cout<<"KQ = "<<TimMax(n, 0);
     cout<<"KQ = "<<Max2(n);
-    cout<<" endl";
+    //cout<<" endl";
     return 0;
 }

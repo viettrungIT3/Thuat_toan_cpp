@@ -1,0 +1,3 @@
+Từ các số {1,2,3,4,5,6} có thể lập được bao nhiêu số khác nhau có 6
+chữ số khác nhau, sao cho tổng 3 chữ số đầu hơn tổng 3 chữ số
+cuối đúng 1?
