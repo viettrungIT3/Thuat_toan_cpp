@@ -28,11 +28,14 @@ int main(int argc, char const *argv[])
     }
     for (int i = 0; i < n; i++)
     {
-        for (int j = i+1; j < n; j++)
+        if ( ktSCP(a[i]) )
         {
-            if ( ktSCP(a[i]) && ktSCP(a[j]) && a[i] > a[j] )
+            for (int j = i+1; j < n; j++)
             {
-                swap( a[i], a[j]);
+                if ( ktSCP(a[j]) && a[i] > a[j] )
+                {
+                    swap( a[i], a[j]);
+                }
             }
         }
     }

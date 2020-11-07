@@ -4,11 +4,11 @@ using namespace std;
 
 long Max_2number( long n )
 {
-    if ( n == 0 )
+    if ( n < 100 )
     {
-        return 0;
+        return n;
     }
-    return max( Max_2number(n/100), n%100);
+    return max( Max_2number(n/10), n%100);
 }
 
 int main(int argc, char const *argv[])
